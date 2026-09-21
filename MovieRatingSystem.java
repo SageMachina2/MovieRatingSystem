@@ -143,6 +143,7 @@ public class MovieRatingSystem
     genre.equalsIgnoreCase("Sci-Fi")
         || genre.equalsIgnoreCase("Sci Fi");
 
+    // conditional operator to choose interstellar if user chose sci-fi or the dark knight if they did not
     String recommendation = choseSciFi ? "Interstellar" : "The Dark Knight";
 
     System.out.println(
